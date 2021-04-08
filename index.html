@@ -25,30 +25,6 @@
     (d.head || d.body).appendChild(s);
     })();
 </script>
-<button class="js-disqus-button">Show comments</button>
-<div id="disqus_thread"></div>
-var $disqusThreadDiv = document.getElementById(
-  'disqus_thread'
-);
-var $commentsButton = document.getElementsByClassName(
-  'js-disqus-button'
-)[0];
-
-if (!$disqusThreadDiv || !$commentsButton) return;
-
-var disqus_config = function () {
-  this.page.url = PAGE_URL; // use your page url here
-  this.page.identifier = PAGE_IDENTIFIER; // use your page identifier here
-};
-
-$commentsButton.addEventListener('click', function(event) {
-  var d = document, s = d.createElement('script');
-  s.src = 'https://crossface-cf.disqus.com/embed.js'; // use your disqus account name here
-  s.setAttribute('data-timestamp', + new Date());
-  (d.head || d.body).appendChild(s);
-
-  event.target.parentElement.removeChild(event.target);
-})
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//crossface-cf.disqus.com/count.js" async></script>
 </body>
