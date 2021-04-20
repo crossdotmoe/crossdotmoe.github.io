@@ -1,2 +1,3 @@
+Sitemap: https://crossface.cf/sitemap.xml
 User-Agent: *
 Disallow:
