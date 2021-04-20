@@ -75,16 +75,11 @@ footer, footer a, footer a:visited {
 }
 
 a {
-    color: #07811d;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: #84e094;
 }
 
 a:visited {
-    color: #045a14;
+    color: #2eba47;
 }
 
 a.black-link, a.black-link:visited {
