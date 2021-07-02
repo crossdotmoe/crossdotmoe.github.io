@@ -26,34 +26,6 @@
   font-style: normal;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
 html {
   font-size: 62.5%;
   -webkit-text-size-adjust: 100%;
@@ -64,30 +36,11 @@ body {
   scroll-behavior: smooth;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
-}
-
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-img {
-  max-width: 100%;
-}
-
-article > * + * {
-  margin-top: 1.4em;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
+  color: #333;
+  background: #333;
+  padding: 30px 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
 }
 
 ::selection {
@@ -98,23 +51,10 @@ select {
   background: #33ff6644;
 }
 
-body {
-  color: #333;
-  background: #333;
-  padding: 30px 50px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-}
 
 a {
   text-decoration: none;
   color: #33cc66;
-}
-
-.container {
-  max-width: 800px;
-  min-width: 300px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -135,17 +75,6 @@ h3 {
   font-weight: 600;
   margin-bottom: 20px;
 }
-
-h4 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-h3.main {
-  text-transform: none;
-}
-
 
 header {
   border-color: #505050;
@@ -182,53 +111,4 @@ blockquote {
   background: #3c3c3c;
   border-color: #4c4c4c;
   color: #ccc;
-}
-
-@media screen and (max-width: 600px) {
-  .projects .project {
-    margin-bottom: 4%;
-    min-width: 280px;
-    width: 98%;
-  }
-}
-
-@media screen and (max-width: 670px) {
-  body {
-    padding: 30px 20px;
-  }
-
-  header {
-    display: flex;
-    justify-content: left;
-  }
-
-  header .bio {
-    text-align: center;
-    width: 100%;
-  }
-
-  header .links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    margin-top: 20px;
-  }
-
-  header .links a {
-    margin: 0 10px;
-  }
-
-  header h2 {
-    margin-top: 2px;
-  }
-
-  nav {
-    text-align: center;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    border-color: #505050;
-    border-bottom: solid 1px #f0f0f0;
-  }
-  
 }
