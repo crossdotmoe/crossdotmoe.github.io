@@ -2,10 +2,7 @@ const hello = (() => {
   const start = () => {
     const hellos = [
       { lang: "english", word: "Hello", dir: "ltr" },
-      { lang: "hebrew", word: "אהלן", dir: "rtl" },
-      { lang: "german", word: "Hallo", dir: "ltr" },
       { lang: "spanish", word: "Hola", dir: "ltr" },
-      { lang: "esperanto", word: "Saluton", dir: "ltr" },
     ];
 
     let current = 0;
