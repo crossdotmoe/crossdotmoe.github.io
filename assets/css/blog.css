@@ -1,38 +1,8 @@
-﻿@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/montserrat-semibold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-body {
+﻿body {
   max-width: 650px;
   margin: 40px auto;
   padding: 0 10px;
   color: #343434
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
 }
 
 h1, h2, h3 {
