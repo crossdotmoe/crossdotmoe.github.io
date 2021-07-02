@@ -110,6 +110,14 @@ a {
   color: #33cc66;
 }
 
+
+#content
+{   font-weight: 500;
+    width: auto;
+    margin: 0px auto 20px auto;
+    display: table }
+
+
 .container {
   max-width: 800px;
   min-width: 300px;
@@ -301,14 +309,6 @@ li::before {
   position: absolute;
 }
 
-p.esperanto-text {
-  background-image: url("../images/flags/eo.png");
-  background-repeat: no-repeat;
-  background-position: left 6px;
-  background-size: 25px;
-  padding-left: 37px;
-}
-
 p.english-text {
   background-image: url("../images/flags/en.png");
   background-repeat: no-repeat;
@@ -318,16 +318,9 @@ p.english-text {
 }
 
 p.english-text.center,
-p.esperanto-text.center {
-  background-position: left center;
-  background-size: 20px;
-  padding-left: 32px;
-}
+
 
 p.english-text.closer,
-p.esperanto-text.closer {
-  margin-top: 0;
-}
 
 .article-link {
   display: flex;
@@ -634,20 +627,6 @@ p.esperanto-text.closer {
   color: #eee;
 }
 
-.books {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.books a {
-  margin: 0 28px 28px 0;
-}
-
-.books a img {
-  width: 170px;
-  height: 246px;
-}
-
 /* --- dark mode --- */
 
 .dark {
@@ -864,9 +843,5 @@ p.esperanto-text.closer {
 
   .tags {
     justify-content: left;
-  }
-
-  .books {
-    justify-content: center;
   }
 }
