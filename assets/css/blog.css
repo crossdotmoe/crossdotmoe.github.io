@@ -5,7 +5,6 @@ body {
   margin: 40px auto;
   padding: 0 10px;
   color: #333333
-  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3 {
@@ -13,7 +12,7 @@ h1, h2, h3 {
 }
 
 pre {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: initial;
   line-height: initial;
   overflow-x: auto;
