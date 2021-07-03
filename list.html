@@ -7,7 +7,6 @@
     <meta name="description" content="CrossFace's Manga Recommendation List">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="manga list, manga, scanlation, translation, bato.to, batotoscans, batoto scans, free manga, batoto, crossface, crossface bato, crossface batoto, crossface weeb, crossface manga"/>
-
     <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="preload" href="/assets/fonts/montserrat-light.otf" as="font" crossorigin>
@@ -15,12 +14,21 @@
     <link rel="preload" href="/assets/fonts/montserrat-medium.otf" as="font" crossorigin>
     <link rel="preload" href="/assets/fonts/montserrat-semibold.otf" as="font" crossorigin>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/js/listpage.js"></script>
-    <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-  
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <meta id="viewport" name="viewport" content="width=500, shrink-to-fit=no">
+<script>
+        if (screen.width > 500) {
+            let viewport = document.getElementById('viewport');
+            viewport.setAttribute('content', 'width=device-width, initial-scale=1, shrink-to-fit=no');
+        }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/fh-3.1.9/r-2.2.9/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/fh-3.1.9/r-2.2.9/datatables.min.js"></script>
+<script type="text/javascript" src="assets/js/listpage.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
