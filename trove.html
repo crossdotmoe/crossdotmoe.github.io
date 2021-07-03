@@ -32,12 +32,6 @@ I'm making some slow progress but there's still much to do. Thank you for your p
 
 <br>
 
-<label id="switch" class="switch">
-  <input type="checkbox" store="themes">
-  <span onclick="toggleTheme()" class="slider round"></span>
-</label>
-
-<br>
 <div class="links">
 <br>
 <button class="random" onclick="openStuff();">Random</button>
@@ -45,34 +39,6 @@ I'm making some slow progress but there's still much to do. Thank you for your p
 <input type="text" id="srch" onkeyup="search()" autocomplete="off" placeholder="Search">
 
 
-
-<script>
-function setTheme(themeName) {
-  localStorage.setItem('theme', themeName);
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  if (themeName == "theme-dark") {
-    link.href = 'css.css';
-  } else {
-    link.href = 'css2.css';
-  }
-  document.head.appendChild(link);
-}
-function toggleTheme() {
-  if (localStorage.getItem('theme') === 'theme-dark') {
-    setTheme('theme-light');
-  } else {
-    setTheme('theme-dark');
-  }
-}
-(function() {
-  if (localStorage.getItem('theme') === 'theme-dark') {
-    setTheme('theme-dark');
-  } else {
-    setTheme('theme-light');
-  }
-})();
-</script>
 <script>
 (function() {
     var boxes = document.querySelectorAll("input[type='checkbox']");
