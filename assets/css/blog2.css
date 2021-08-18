@@ -15,7 +15,7 @@
   --accent-light: #90caf9;
   --code: #d81b60;
   --preformatted: #444;
-  --marked: #ffdd33;
+  --marked: #33cc66;
   --disabled: #efefef;
 }
 @media (prefers-color-scheme: dark) {
@@ -25,7 +25,7 @@
     --text: #dcdcdc;
     --text-light: #ababab;
     --border: #666;
-    --accent: #ffb300;
+    --accent: #33cc66;
     --accent-light: #ffecb3;
     --code: #f06292;
     --preformatted: #ccc;
