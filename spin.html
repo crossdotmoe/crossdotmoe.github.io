@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Funky Duck</title>
+      <link rel="shortcut icon" href="/assests/favicon.ico">
+      <meta property="og:title" content="Funky Duck" />
+      <meta name="theme-color" content="#d35153">
+      <meta property="og:image" content="/img/duck_spin.gif" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="og:description" content="FUNKY DUCK NEAR YOU!!!" />
+      <style>
+         img {
+         max-height: 100vh;
+         max-width: 100%;
+         }
+         body {
+         background-color: black;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0px;
+         }
+      </style>
+   </head>
+   <body>
+      <audio autoplay hidden loop id="autoplay">
+         <source src="/music/reimu_funky.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+         var aud = document.getElementById("autoplay");
+		 aud.volume = 0.5;
+         setTimeout(function(){aud.play()},500);
+         document.onclick=function(){aud.play()};
+         document.onmouseover=function(){aud.play()};
+            
+      </script>
+      <img src="/img/duck_spin.gif">
+   </body>
+</html>
